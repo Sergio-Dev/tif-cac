@@ -2,7 +2,7 @@ import express from 'express';
 import moviesRoutes from './movies/movies.routes.js';
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 app.use(express.static('public'));
 app.use(express.json())
