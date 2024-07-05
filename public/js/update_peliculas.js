@@ -1,4 +1,4 @@
-const API_SERVER = 'https://b01a77c4-e642-493a-9613-9c49044431e0-00-1k56uf88tvz93.kirk.replit.dev';
+const API_SERVER = 'https://devsergio.alwaysdata.net';
 const options = {
     method: 'GET',
     headers: {
