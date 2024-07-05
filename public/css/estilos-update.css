@@ -1,0 +1,14 @@
+#pelicula-img{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+}
+
+#main .seccionRegistrarse.update{
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+
+}

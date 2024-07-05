@@ -1,0 +1,68 @@
+.peliculas a{
+  text-decoration: none;
+  color: inherit;
+
+  border: #9f3647 1px solid;
+  padding: 2px 4px;
+  border-radius: 5px;
+
+}
+
+.peliculas a:hover{
+
+  border: #9f3647 1px solid;
+  background-color: #9f3647;
+  color: white;
+
+}
+
+.admin-movie section.seccionRegistrarse.admin {
+  width: 80%;
+  min-height: 60vh;
+}
+
+table {
+  margin: auto;
+  border: 1px solid #9f3647;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table th {
+  border: 1px solid #9f3647;
+  padding: 5px;
+  /*background: #f0f0f0;*/
+  background-color: #333333;
+  /*color: #313030;*/
+  color: white;
+}
+
+table td {
+  border: 1px solid #9f3647;
+  text-align: center;
+  padding: 5px;
+  /*background: #ffffff;*/
+  background-color: rgb(255, 255, 255);
+  /*color: #313030;*/
+  color: #9f3647;
+}
+
+td a {
+  margin: 10px;
+}
+
+td {
+  text-transform: capitalize;
+}
+
+.btn-add{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.btn-add .btn-link{
+  background-color: #9f3647;
+}

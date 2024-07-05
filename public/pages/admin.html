@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registros | CAC-MOVIES</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/estilos-admin.css">
+</head>
+
+<body class="bodyRegistrarse">
+
+    <header class="header">
+        <nav class="navegacion">
+            <a class="anclaLogo" href="../index.html">
+                <i class="fas fa-film" aria-hidden="true"></i>
+                <span>CAC-Movies</span>
+            </a>
+            <ul class="listaNav">
+                <li class="listaItem"><a class="linkNav" href="../index.html">Tendencias</a></li>
+                <li class="listaItem"><a class="linkNav" href="./admin.html">Admin</a></li>
+
+                <li class="listaItem"><a class="linkNav" href="./registrarse.html">Registrarse</a></li>
+                <li class="listaItem"><a class="linkNav iniciarSesion" href="./iniciosesion.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="main" class="main admin-movie">
+        <section data-aos="zoom-in" data-aos-duration="1000" class="seccionRegistrarse admin">
+            <div class="peliculas" id="">
+                <!-- Aquí se cargarán las películas tendencia -->
+                <div class="btn-add">
+                    <a class="btn-link" href="./admin-add-movie.html">+ Agregar pelicula </a>
+                </div>
+                <table id="table-id">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Imagen</th>
+                            <th>Titulo</th>
+                            <th>Duracion</th>
+                            <th>Año Estreno</th>
+                            <th>Genero</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="movies-container">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="../js/obtener_peliculas.js"></script>
+    <script src="../js/eliminar_pelicula.js"></script>
+</body>
+
+</html>
