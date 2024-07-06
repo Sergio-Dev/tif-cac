@@ -77,6 +77,17 @@ const inputUrlImagen = document.getElementById("url_imagen");
 const updateMovie = (e)=>{
     e.preventDefault();
 
+    if( 
+        inputId.value.length == 0 ||
+        inputTitulo.value.length == 0 ||
+        inputDuracion.value.length == 0 ||
+        inputFechaEstreno.value.length == 0 ||
+        inputGeneroId.value.length == 0 ||
+        inputUrlImagen.value.length == 0
+    ){
+        return alert("Uno o mas campos no se han completado")
+    }
+
     const body = {
         titulo: inputTitulo.value,
         duracion: inputDuracion.value,
