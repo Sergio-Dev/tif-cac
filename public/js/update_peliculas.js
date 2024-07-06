@@ -36,7 +36,6 @@ const cargarDatosPelicula = async () => {
         const inputUrlImg = document.getElementById("url_imagen");
         
         const UrlImg = document.getElementById("pelicula-img");
-        console.log(UrlImg)
 
         movies.forEach(movie => {
 
